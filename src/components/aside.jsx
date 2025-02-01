@@ -71,7 +71,7 @@ const Aside = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" class="nav-link place-center">
+              <Link to="/inec" class="nav-link place-center">
                 <RiLogoutBoxRFill className="nav-icon" />
                 <p>Logout</p>
               </Link>

@@ -10,7 +10,7 @@ function App () {
   return (
     <BrowserRouter>
       <Routes>
-        <Route index element={<Login />} />
+        <Route index path="inec" element={<Login />} />
         <Route path="dashboard" element={<Dashboard />} />
         <Route path="emergency" element={<Emergency />} />
         <Route path="alerts" element={<Alerts />} />
