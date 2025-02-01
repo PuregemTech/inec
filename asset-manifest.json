@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/inec/static/css/main.be763226.css",
+    "main.js": "/inec/static/js/main.efc4414a.js",
+    "static/media/home-img.svg": "/inec/static/media/home-img.5760405abebb5d6c67f46a5b7b3b4533.svg",
+    "index.html": "/inec/index.html",
+    "main.be763226.css.map": "/inec/static/css/main.be763226.css.map",
+    "main.efc4414a.js.map": "/inec/static/js/main.efc4414a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be763226.css",
+    "static/js/main.efc4414a.js"
+  ]
+}
