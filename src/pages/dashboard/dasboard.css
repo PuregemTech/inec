@@ -1,0 +1,119 @@
+.fs_,
+.fs_ span:first-of-type {
+  font-size: 0.7rem !important;
+}
+.sidebar2__wrapper {
+  /* position: relative; */
+  width: 250px;
+  height: 100%;
+  /* height: calc(100vh - (calc(3.5rem + 1px))) !important; */
+}
+.sidebar2__container {
+  width: 290px;
+  /* overflow-y: hidden; */
+  /* position: absolute; */
+  left: 0;
+  height: 100%;
+  /* height: calc(100vh - (calc(3.5rem + 1px))) !important; */
+  top: 0;
+  padding: 1rem 0 0 1.5rem;
+  border-right: 1px solid gray;
+}
+.dashboard__list {
+  display: grid;
+  gap: 1.5rem;
+  position: relative;
+}
+.fs_ span {
+  position: absolute;
+  right: 10%;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+.fs_ span:first-child {
+  left: 0;
+  /* color: rgb(228, 222, 222); */
+}
+.hrr {
+  width: 250px;
+  height: 1px;
+  background: rgba(228, 222, 222, 0.8);
+  margin-bottom: 1.3rem;
+}
+.info_box {
+  padding: 1rem;
+  border-radius: 10px;
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+.location_content {
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+  padding-right: 1rem;
+}
+.location_content > div {
+  padding: 0.2rem 0.8rem;
+  border: 1px solid;
+  border-radius: 10px;
+  text-align: center;
+  color: darkgray;
+}
+.app-main {
+  overflow: hidden !important;
+}
+.map_wrapper {
+  overflow: hidden;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  width: calc(73%);
+  padding: 1rem !important;
+  border-left: 1px solid gray;
+}
+.a {
+  /* height: calc(100vh - (calc(2.3rem + 20px))) !important; */
+
+  overflow-y: hidden !important;
+  /* height: calc(100vh - (calc(3.5rem + 1px))); */
+}
+.map_filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.6rem;
+}
+.select_container {
+  display: flex;
+  gap: 1rem;
+}
+.select_container > select {
+  width: 8rem;
+}
+
+#map {
+  height: 100%;
+}
+
+.custom-icon {
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.custom-icon div {
+  color: rgb(70, 61, 61);
+  font-weight: bold;
+  font-size: 14px;
+  text-align: center;
+}

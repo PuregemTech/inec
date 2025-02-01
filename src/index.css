@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  list-style: none;
+  border: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  /* color: var(--color-gray-200); */
+  /* line-height: 1.7; */
+  overflow-x: hidden;
+  /* background: var(--color-gray-600) url("./images/bg_texture.png"); */
+}
+:root {
+  --color-primary: #238f53;
+  --color-secondary: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.2;
+  /* color: var(--color-gray-100); */
+}
+
+h1 {
+  font-size: 2rem !important;
+}
+
+h2 {
+  font-size: 1rem !important;
+}
+
+/* a {
+  color: var(--color-gray-100);
+} */
+
+img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+}
+.fw-600 {
+  font-weight: 600 !important;
+}
+.fw-700 {
+  font-weight: 700 !important;
+}
+.fsi-1 {
+  font-size: 1rem;
+}
+.place-center {
+  display: flex;
+  align-items: center;
+}
+.primary-color {
+  background: #238f53;
+}

@@ -1,0 +1,100 @@
+.profile_container {
+  padding: 1rem 0.5rem;
+  display: grid;
+  grid-template-columns: 20% 70%;
+  gap: 0.5rem;
+}
+.profile_pic_container {
+  border-radius: 0.8rem;
+  height: 60%;
+}
+.profile_pic_container img {
+  width: 6rem;
+  height: 6rem;
+}
+.profile_content {
+  padding: 0.5rem;
+  background: #fff;
+  border-radius: 0.8rem;
+}
+table,
+tr,
+td {
+  padding: 0.8rem;
+}
+._fs {
+  font-size: 0.9rem;
+}
+.opa {
+  opacity: 0.6;
+}
+
+.update_password_cont {
+  padding: 1rem;
+  background: #fff;
+  border-radius: 0.8rem;
+  font-size: 0.9rem !important;
+}
+.password_cont {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+}
+.passwordLabel {
+  font-size: 0.7rem !important;
+}
+.passworInput {
+  padding: 0.5rem 0.7rem !important;
+}
+
+.main_alert {
+  padding: 1rem;
+  background: #fff;
+}
+.alert_container {
+  background: #e9ecef;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.alert_content {
+  display: flex;
+  justify-content: space-between;
+  /* width: 300px; */
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+.alert_cont_header h6 {
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+.alert_cont_header h6:nth-child(2) {
+  color: #238f53;
+}
+
+.a_cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+.a_cont div {
+  flex-basis: 32%;
+}
+.a_cont div:nth-child(4),
+.a_cont div:nth-child(5) {
+  flex-basis: 49%;
+}
+
+.alert_content h6 {
+  font-size: 0.7rem;
+  margin: 0;
+}
+.alert_content h6:nth-child(2) {
+  color: red;
+}
+.sos {
+  justify-content: unset !important;
+}
+.sos_content {
+  flex-basis: 15% !important;
+}
